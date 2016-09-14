@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://G:/sap/SparkController/package/files/sap/spark/controller/lib/aws.resolver-1.6.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/controller-1.6.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://G:/sap/SparkController/package/files/sap/spark/controller/lib/controller-1.6.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/controller.extension-1.6.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://G:/sap/SparkController/package/files/sap/spark/controller/lib/controller.extension-1.6.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/scala-library-2.10.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -37,30 +37,21 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://G:/sap/SparkController/package/files/sap/spark/controller/lib/scala-library-2.10.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://G:/sap/SparkController/package/files/sap/spark/controller/lib/vora.addon-1.6.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://G:/spark 1.5.1/lib/spark-assembly-1.5.2-hadoop2.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spark-assembly-1.5.2-hadoop2.6.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://G:/spark 1.5.1/lib/spark-assembly-1.5.2-hadoop2.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spark-assembly-1.5.2-hadoop2.6.0.jar!/" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/vora.addon-1.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>
